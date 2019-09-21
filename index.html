@@ -8,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
     <!--Resume heading (jumbotron)-->
     <section class="row">
       <article class="col-md">
-        <div class="jumbotron bg-primary text-white">
+        <div id='top-jumbo' class="jumbotron text-white">
           <h1>SETH HARBISON</h1>
           <p>Full Stack Developer</p>
         </div>
@@ -27,14 +28,15 @@
     <!--alert that this was built with BS4-->
     <section class="row">
       <div class="col-md">
-        <p class="alert alert-success">This resume was created using Bootstrap 4!</p>
+        <h4>Profile</h4>
+        <p class="alert">This resume was created using Bootstrap 4!</p>
       </div>
     </section>
 
     <!--skills section-->
     <section class="row">
       <article class="col-md-12 my-2">
-        <h2>My Skills</h2>
+        <h4>My Skills</h4>
       </article>
       <article class="col-md-12">
         <ul class="list-group">
@@ -61,18 +63,23 @@
     <!--experience section-->
     <section class="row">
       <article class="col-md-12 my-4">
-        <h2>My Experience</h2>
+        <h4>My Experience</h4>
       </article>
 
       <!--cards displaying past positions-->
       <div class="col-md-4 d-flex my-2">
         <div class="card">
           <img
-            src="https://contestimg.wish.com/api/webimage/5b404fd88247b77d9977f3f4-large.jpg?cache_buster=3802bec490e66a5379ac3b4faa4b0eae"
+            src="https://media.licdn.com/dms/image/C560BAQFAQDW77BCx2A/company-logo_200_200/0?e=2159024400&v=beta&t=GKt1Ngg1n8IBGNYQgGh0gL4VbNDSOYdAGKCe5mIZFZY"
             class="card-img-top" alt="Stark Ind. Logo">
           <div class="card-body flex-fill">
-            <h5 class="card-title">Software Developer, J.A.R.V.I.S. Security</h5>
-            <p class="card-text">Performed regular debugging for the security portion of the J.A.R.V.I.S. interface</p>
+            <h5 class="card-title">Accounting Assistant I</h5>
+            <ul class="card-text">
+              <li>Responsible for Urgent Care - Texas Division</li>
+              <li>Processing vendor invoices</li>
+              <li>Petty cash replenishment</li>
+              <li>Troubleshoot payment and billing issues</li>
+            </ul>
             <a href="#" class="btn btn-primary">Website</a>
           </div>
         </div>
